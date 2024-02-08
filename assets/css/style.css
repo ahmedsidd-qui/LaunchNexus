@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    font-weight: 100;
+}
+nav{
+    background: #3C3633;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+    color: #EEEDEB;
+}
+.nav-items ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 35px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.logo h1{
+    color: #fff;
+    font-weight: 100;
+}
+.main-page img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.main-page h1{
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.347); 
+  padding: 10px;
+}
+.main-page h1{
+    color: #fff;
+    filter:drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.9));
+    font-size: 30px;
+}
+.internship-page{
+    background: #EEEDEB;
+}
+.intern-heading h2{
+    font-size: 44px;
+    padding: 40px 0;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    border: 1px solid #000;
+    width: 300px;
+    height: 70vh;
+    background-color: #fff;
+    text-align: center;
+}
+.cards img{
+    width: 300px; 
+    padding-bottom: 12px;  
+}
+.cards button{
+    padding: 10px 20px;
+    color: #808080;
+    border: none;
+    font-size: 16px;
+    transition: .5s;
+    letter-spacing: 4px;
+}
+.cards button a{
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+}
+.cards button:hover{
+    background: #c2c2c2;
+    color: #fff;
+    box-shadow: 0 0 5px #c2c2c2, 0 0 10px #c2c2c2, 0 0 20px #c2c2c2, 0 0 30px #c2c2c2;
+}
+.intern-readmore{
+    text-align: center;
+    padding: 40px 0;
+}
+.about-page{
+    height: 100vh;
+    width: 100%;
+    background-color: #747264;
+}
+footer{
+    background-color: #3C3633;
+    padding: 0 30px;
+    color: #EEEDEB;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+.footer-one,
+.footer-two,
+.footer-three{
+    width: 300px;
+}

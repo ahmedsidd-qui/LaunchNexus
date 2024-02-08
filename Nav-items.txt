@@ -1,0 +1,19 @@
+Nav-items:
+1.home
+2.About
+3.Internships
+4.Updates
+
+
+
+internships:
+Frontend Development: Craft user interfaces that come to life in the browser.
+Backend Development: Build the robust engine that powers web applications.
+Wordpress: Master the world's most popular content management system.
+C++: Unleash the power of performance with this versatile programming language.
+Java: Dive into the enterprise-grade platform for robust applications.
+Python: Explore the versatile language for web, data science, and more.
+Graphics Designing: Create visually stunning assets for websites, apps, and beyond.
+Figma Design: Collaborate and design modern interfaces in the industry-standard tool.
+UI/UX Design: Shape user experiences that are both beautiful and functional.
+Application Development using Flutter: Build native mobile apps with Google's cross-platform framework.
