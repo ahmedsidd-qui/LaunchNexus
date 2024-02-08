@@ -7,27 +7,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="./main.js">
 </head>
 <body>
     <!-- navbar -->
     <header>
-    <nav id="navbar">
+    <div class="nav">
         <div class="logo">
-            <h1>LaunchNexus</h1>
+        <a href="index.html"><img src="./assets/images/Screenshot 2024-02-08 193152.png" alt=""></a>
         </div>
         <div class="nav-items">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
-                <li><a href="">Intership</a></li>
+                <li><a href="internship.html">Intership</a></li>
             </ul>
         </div>
-    </nav>
+    </div>
 </header>
     <main id="main-content">
     <div class="main-page">
-        <img src="./assets/images/pexels-cottonbro-studio-6804581.jpg" alt="">
+        <img src="./assets/images/pexels-fauxels-3184160.jpg" alt="">
         <h1>Unlock your potential with hands-on experience in our internship programs.</h1>
     </div>
     <!-- internships -->
@@ -41,26 +40,54 @@
         <img src="./assets/images/pexels-bibek-ghosh-14553706.jpg" alt="">
         <h3><center>Frontend Development</center></h3>
         <p>Craft user interfaces that come to life in the browser.</p>
-        <button><a target="_blank" href="https://forms.gle/mTf8i1xr8LAMUFcdA">Apply Now! </a></button>
+        <button><a target="_blank" href="https://forms.gle/kJNYhint6zVuQShK8">Apply Now! </a></button>
     </div>
     <div class="cards">
         <img src="./assets/images/pexels-cottonbro-studio-6804581.jpg" alt="">
         <h3><center>Frontend Development</center></h3>
         <p>Craft user interfaces that come to life in the browser.</p>
-        <button><a target="_blank" href="https://forms.gle/mTf8i1xr8LAMUFcdA">Apply Now! </a></button>
+        <button><a target="_blank" href="https://forms.gle/kJNYhint6zVuQShK8">Apply Now! </a></button>
     </div>
     <div class="cards">
         <img src="./assets/images/pexels-paras-katwal-4218883.jpg" alt="">
         <h3><center>Frontend Development</center></h3>
         <p>Craft user interfaces that come to life in the browser.</p>
-        <button><a target="_blank" href="https://forms.gle/mTf8i1xr8LAMUFcdA">Apply Now! </a></button>
+        <button><a target="_blank" href="https://forms.gle/kJNYhint6zVuQShK8">Apply Now! </a></button>
     </div>
 </div>
 <div class="intern-readmore">
-    <a href="#"><button>Read more..</button></a>
+    <a href="internship.html"><button>Check more</button></a>
 </div>
 </div>
-<div class="about-page"></div>
+<div class="get-started">
+    <h1>Ready to get started ?</h1>
+    <p>Let's get registered yourself for an internship and unleash your potential.</p>
+    <a href="https://forms.gle/kJNYhint6zVuQShK8"><button>Apply</button></a>
+</div>
+<div class="about-page">
+    <div class="about-left">
+        <img src="./assets/images/pexels-paras-katwal-4218883.jpg" alt="">
+    </div>
+    <div class="about-right">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia excepturi, cupiditate maxime vitae pariatur magnam inventore quia et possimus mollitia. Sed, nobis. Tenetur, ipsa repellendus eos fuga asperiores deleniti modi.</p>
+        <a href="about.html"><button>Read more</button></a>
+    </div>
+</div>
+<div class="contact">
+    <div class="contact-left">
+        <h1> <center>Contact Us</center></h1>
+        <form action="" method="post">
+            <input type="text" name="name" placeholder="Name" required></br>
+            <input type="email" name="email" id="email" placeholder="Email" required></br>
+            <textarea name="message" id="msg" rows="5" placeholder="Message"></textarea></br>
+            <button type="submit">Send</button>
+            </form>
+    </div>
+    <div class="contact-right">
+        <img src="./assets/images/michal-biernat-h0xEUQXzU38-unsplash.jpg" alt="">
+    </div>
+</div>
 </main>
 <footer>
     <div class="footer-top">
@@ -71,18 +98,19 @@
 <div class="footer-two">
     <h2>Get every latest updates</h2>
     <form action="">
-        <input type="email" name="email" id="">
-        <span><button type="submit">Subscribe</button></span>
+        <input type="email" name="email" id="" required>
+        <span><button id="footer-button" type="submit">Subscribe</button></span>
     </form>
 </div>
 <div class="footer-three">
     <h2>Contact Us</h2>
-    <a href=""><i class="fa-brands fa-2xl fa-linkedin"></i></a>
-    <a href=""><i class="fa-solid fa-2xl fa-envelope"></i></a>
-    <a href=""><i class="fa-brands fa-2xl fa-square-whatsapp"></i></a>
+    <a href=""><i style="color: #808080;" class="fa-brands fa-2xl fa-linkedin"></i></a>
+    <a href=""><i style="color: #808080;" class="fa-solid fa-2xl fa-envelope"></i></a>
+    <a href=""><i style="color: #808080;" class="fa-brands fa-2xl fa-square-whatsapp"></i></a>
 </div>
+<div class="fp"><p><center>&copy;2024  | Made by LaunchNexus</center></p></div>
 </div>
-    <p><center>&copy;2024  | Made by LaunchNexus</center></p>
+
 </footer>
 </body>
 </html>
