@@ -299,3 +299,130 @@ footer {
     padding: 60px 0;
   }
 }
+
+
+
+
+
+.inter-page-heading{
+  text-align: center;
+  font-size: 77px;
+  height: 100vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #868686;
+  filter: brightness(60%);
+  background-image: url(/assets/internship/luca-bravo-9l_326FISzk-unsplash.jpg);
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.inter-page-heading h1{
+  padding-top: 25vh;
+  font-weight: 900;
+  filter: drop-shadow(1px 1px 2px rgb(0, 0, 0));
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px; /* Adjust spacing as needed */
+  padding-top: 30px;
+}
+
+
+
+@media(max-width:768px){
+  .cards{
+    height: 50vh;
+  }
+}
+
+.about-html-page{
+  height: 70vh;
+  background-image: url(/assets/images/vladimir-mokry-2dTeBxsF-Q0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.about-html-page h1{
+  animation: fadeIn 1s ease-in-out forwards;
+  font-size: 130px;
+  padding-top: 95px;
+  color: #333333;
+  font-weight: 900;
+}
+.why-choose{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.why-choose img{
+  width: 500px;
+}
+.container-about{
+  margin: 80px;
+}
+.container-about h2{
+  font-size: 40px;
+  padding-bottom: 60px;
+  padding-bottom: 10px;
+}
+.why-choose p{
+  padding: 0 80px;
+  font-size: 20px;
+  color: #434343;
+}
+.apart-about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+.apart-about-heading{
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.apart-about p{
+  line-height: 2rem;
+  font-size: 18px;
+  padding-right: 20px;
+}
+.apart-about img{
+  width: 50vw;
+  height: 100vh;
+}
+.about-certificate h1{
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+span{
+  color: #ffc800;
+}
+.about-certificate p{
+  font-size: 18px;
+  margin: 70px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 2rem;
+}
+@media (max-width: 786px) {
+    .why-choose{
+      flex-direction: column;
+    }
+    .why-choose img{
+      width: 350px;
+    }
+    .why-choose P{
+      padding: 0 6px !important;
+    }
+    .apart-about{
+      flex-direction: column;
+    }
+    .apart-about img{
+      width: 350px;
+    }
+}
