@@ -130,6 +130,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   background-color: #eeee;
   padding-top: 35vh;
 }
@@ -181,9 +182,13 @@
     resize: none;
     background-color: #efefef;
     border: 1px solid #c2c2c2;
-    padding: 20px 49px;
     text-align: center;
     transition: 0.5s;
+}
+.contact textarea,
+.contact input{
+  width: 300px;
+  padding: 12px;
 }
 .contact form button {
     padding: 5px 20px;
@@ -194,7 +199,6 @@
 .contact form input {
     background-color: #efefef;
   border: 1px solid #c2c2c2;
-  padding: 10px 40px;
   text-align: center;
   transition: 0.5s;
 }
@@ -207,7 +211,7 @@
 }
 .contact form input:hover,
 .contact form textarea:hover {
-    background-color: #b8b8b8;
+    background-color: #e1e1e1;
 }
 .contact button:hover {
     background-color: #b8b8b8;
@@ -255,7 +259,7 @@ footer {
     font-size: 60px;
   }
   .about-right {
-    padding: 35px 80px 0 80px !important;
+    padding: 35px 40px 0 40px !important;
   }
 
   .container {
@@ -279,13 +283,10 @@ footer {
   .contact {
     flex-direction: column-reverse;
     align-items: center;
-    margin-top: 58vh;
+    margin-top: 8vh;
+    padding-top: 16px;
     padding-bottom: 30px;
     padding-left: 0 !important;
-  }
-  .contact form textarea {
-    padding-left: 44px;
-    padding-right: 70px;
   }
 
   .get-started h1 {
