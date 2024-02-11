@@ -247,6 +247,13 @@ footer {
     .nav-items a{
         font-size: 16px;
     }
+    .nav-items ul{
+      padding: 0 !important;
+    }
+    .nav-items ul li{
+      padding-right: 6px !important;
+      padding-bottom: 10px;
+    }
     .nav{
       flex-direction: column;
     }
@@ -335,6 +342,9 @@ footer {
 @media(max-width:768px){
   .cards{
     height: 50vh;
+  }
+  .inter-page-heading{
+    font-size: 35px;
   }
 }
 

@@ -5,8 +5,8 @@ document.getElementById("row").innerHTML  += `
 </div>
 <div class="nav-items">
     <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="internship.html">Intership</a></li>
     </ul>
 </div>
