@@ -244,11 +244,11 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .nav-items li{
-        padding: 2px !important;
-    }
     .nav-items a{
         font-size: 16px;
+    }
+    .nav{
+      flex-direction: column;
     }
   .logo img {
     padding-top: 30px;
