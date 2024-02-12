@@ -233,6 +233,15 @@ footer {
 .footer-three {
     width: 300px;
 }
+.footer-top h2{
+  font-size: 35px;
+  padding-bottom: 15px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-top i{
+  padding-left: 15px;
+  padding-top: 15px;
+}
 .footer-top button {
     padding: 3px 10px;
     background: #000;
@@ -266,9 +275,13 @@ footer {
     font-size: 60px;
   }
   .about-right {
-    padding: 35px 40px 0 40px !important;
+    text-align: center;
+    padding: 10px 20px;
+}
+  .about-right p{
+  text-align: justify;
+  padding-bottom: 20px;
   }
-
   .container {
     flex-direction: column;
     align-items: center;
@@ -286,6 +299,13 @@ footer {
   }
   .get-started {
     padding-top: 20vh !important;
+    height: 60vh !important;
+  }
+  .get-started p{
+    padding-bottom: 20px;
+  }
+  .get-started h1{
+    font-size: 50px;
   }
   .contact {
     flex-direction: column-reverse;
@@ -426,10 +446,15 @@ span{
       width: 350px;
     }
     .why-choose P{
-      padding: 0 6px !important;
+      padding: 0 !important;
     }
     .apart-about{
       flex-direction: column;
+    }
+    .apart-about-heading h2,
+    .why-choose h2,
+    .about-certificate h2{
+      font-size: 55px;
     }
     .apart-about img{
       width: 350px;
